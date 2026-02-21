@@ -29,7 +29,26 @@ Two Characters
 
 Grid Challenge
 
-<pre> ## 🗂 Project Structure ``` funny-string-project/ │ ├── funny.py ├── alternating.py ├── caesar.py ├── two_characters.py ├── grid_challenge.py │ ├── algorithm_funny.txt ├── algorithm_alternating.txt ├── algorithm_caesar.txt ├── algorithm_two_characters.txt ├── algorithm_grid_challenge.txt │ └── tests/ ├── test_funny.py ├── test_alternating.py ├── test_caesar.py ├── test_two_characters.py └── test_grid_challenge.py ``` </pre>
+funny-string-project/
+│
+├── funny.py
+├── alternating.py
+├── caesar.py
+├── two_characters.py
+├── grid_challenge.py
+│
+├── algorithm_funny.txt
+├── algorithm_alternating.txt
+├── algorithm_caesar.txt
+├── algorithm_two_characters.txt
+├── algorithm_grid_challenge.txt
+│
+└── tests/
+    ├── test_funny.py
+    ├── test_alternating.py
+    ├── test_caesar.py
+    ├── test_two_characters.py
+    └── test_grid_challenge.py
 
 All tests are written using Python unittest framework.
 
