@@ -1,0 +1,14 @@
+Algorithm: Grid Challenge
+
+Input: List of strings grid
+
+1. For each row in grid:
+       Sort the characters in the row alphabetically
+
+2. For each column index:
+       For each row from top to bottom:
+           If current character < character in previous row:
+               Return "NO"
+
+3. If all columns are sorted:
+       Return "YES"
