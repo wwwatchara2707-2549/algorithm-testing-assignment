@@ -1,0 +1,16 @@
+Algorithm: Funny String
+
+Input: string s
+
+1. รับค่า string s
+2. สร้าง string r ซึ่งเป็น reverse ของ s
+3. ถ้า length ของ s <= 1
+       return "Funny"
+4. วนลูป i ตั้งแต่ 0 ถึง len(s)-2
+5. คำนวณ diff1 = |ASCII(s[i]) - ASCII(s[i+1])|
+6. คำนวณ diff2 = |ASCII(r[i]) - ASCII(r[i+1])|
+7. ถ้า diff1 != diff2
+       return "Not Funny"
+8. ถ้าครบทุกตำแหน่ง
+       return "Funny"
+    
