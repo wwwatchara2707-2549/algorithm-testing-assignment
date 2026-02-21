@@ -1,0 +1,12 @@
+Algorithm: Alternating Characters
+
+Input: string s
+
+1. รับค่า string s
+2. ถ้า length ของ s <= 1
+       return 0
+3. กำหนดตัวแปร count = 0
+4. วนลูป i ตั้งแต่ 1 ถึง len(s)-1
+5. ถ้า s[i] เท่ากับ s[i-1]
+       เพิ่ม count ขึ้น 1
+6. คืนค่า count
